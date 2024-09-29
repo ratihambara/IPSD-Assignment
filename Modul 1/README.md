@@ -162,7 +162,7 @@ def buat_pola_prima(baris):
 buat_pola_prima(4)
 ```
 #### Output:
-![Screenshot 2024-04-26 105533](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/dad85963-58eb-4491-a52f-8a8f8f9dd9fe)
+![Screenshot 2024-09-30 044732](https://github.com/user-attachments/assets/3939f5c3-4c2e-4607-912f-b29c7ac2858c)
 
 Fungsi adalah_prima(n) digunakan untuk memeriksa apakah suatu bilangan adalah bilangan prima. Fungsi buat_pola_prima(baris) menggunakan loop untuk setiap baris dan menambahkan bilangan prima yang sesuai.
 
@@ -184,7 +184,7 @@ hasil = gabung_urut_ganjil(list1, list2)
 print(hasil)
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051332](https://github.com/user-attachments/assets/0582736a-8c14-4ae5-accd-9c20bd8ba491)
 
 Fungsi gabung_urut_ganjil menerima dua list sebagai input. Menggunakan list comprehension untuk mengambil elemen dengan indeks ganjil dari kedua list. Menggabungkan elemen-elemen tersebut dan mengurutkannya secara menurun menggunakan sort(reverse=True)
 
@@ -230,7 +230,7 @@ def atm_simulasi():
 atm_simulasi()
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051344](https://github.com/user-attachments/assets/780f6b42-d6d6-449b-b778-f2b13e582ae4)
 
 Program memeriksa apakah saldo cukup untuk penarikan. Jika tidak cukup, muncul pesan kesalahan. Jika cukup, saldo dikurangi dengan jumlah penarikan dan saldo akhir ditampilkan.
 
@@ -273,7 +273,7 @@ rata_rata = hitung_rata_rata(data_mahasiswa)
 tampilkan_tertinggi_terendah(rata_rata)
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051358](https://github.com/user-attachments/assets/66ede9b9-d539-4c0d-adcb-1c057c7ab137)
 
 Fungsi hitung_rata_rata(data_mahasiswa) menghitung rata-rata nilai tiap mahasiswa dan mengembalikan dictionary dengan nama mahasiswa sebagai kunci dan rata-rata nilai sebagai nilai.
 
@@ -314,7 +314,7 @@ def permainan_tebak_angka():
 permainan_tebak_angka()
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051418](https://github.com/user-attachments/assets/56203726-312b-4492-8adc-a1cc4121d8d7)
 
 Program ini menggunakan modul random untuk memilih angka secara acak antara 1 hingga 100.
 
@@ -342,7 +342,7 @@ print(f"Input: n = {n}")
 print(f"Output: {', '.join(map(str, urutan_faktorial(n)))}")
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051432](https://github.com/user-attachments/assets/4d71881b-b13a-436d-8002-dad1511b2658)
 
 Fungsi faktorial(n) adalah fungsi rekursif yang menghitung faktorial dari n. Fungsi urutan_faktorial(n) menghasilkan urutan bilangan faktorial dari 0 hingga n dengan memanggil fungsi faktorial untuk setiap angka dalam rentang tersebut.
 
@@ -372,7 +372,7 @@ else:
     print(f"Tidak mungkin mencapai jumlah {jumlah} dengan koin yang tersedia")
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051445](https://github.com/user-attachments/assets/6f68b3f3-b680-453b-91bc-d3367781f04c)
 
 Program mengisi array dp dengan memeriksa setiap koin yang tersedia dan memperbarui jumlah minimum koin yang dibutuhkan. Jika tidak mungkin mencapai jumlah dengan koin yang tersedia, fungsi mengembalikan -1.
 
@@ -398,7 +398,7 @@ hasil = balik_kata(kalimat)
 print(hasil)
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051457](https://github.com/user-attachments/assets/92768a21-bcdb-4672-a17d-f9b05631627b)
 
 Fungsi balik_kata(kalimat) memisahkan kalimat menjadi list kata-kata menggunakan split(). Setiap kata dalam list dibalik menggunakan slicing [::-1].
 
@@ -435,7 +435,7 @@ for buku in buku_list:
     print(f"Usia Buku: {buku.hitung_usia()} tahun\n")
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051512](https://github.com/user-attachments/assets/6d116ffd-aef2-4b37-a7c0-ff7f6181cd33)
 
 Method tampilkan_informasi digunakan untuk menampilkan informasi buku. Method hitung_usia digunakan untuk menghitung usia buku berdasarkan tahun saat ini.
 
@@ -470,12 +470,12 @@ hasil = binary_search_genap(list_genap, target)
 print(hasil)
 ```
 #### Output:
-![Screenshot 2024-04-26 105728](https://github.com/ratihambara/Praktikum-Struktur-Data-Assignment/assets/161399790/df6bd4d8-813d-4627-976d-c28002973985)
+![Screenshot 2024-09-30 051526](https://github.com/user-attachments/assets/7e8bbfca-f23e-42cd-bedf-eb1c72add38b)
 
 Fungsi binary_search_genap menerima list arr yang berisi angka genap dan target yang ingin dicari.
 
 ## Kesimpulan
-Struct merupakan tipe data bentukan yang terdiri dari beberapa tipe data standar maupun tipe data bentukan lainnya yang telah didefinisikan sebelumnya. Keyword yang digunakan untuk membuat sebuah struktur yakni struct().
+Dasar-dasar Python yang perlu diketahui yaitu : variable dan tipa data, operasi aritmatika dan logika, fungsi, pengulangan, dan percabangan.
 
 ## Referensi
 Sjukani, Moh. 2007. Struktur Data (Dasar-Dasar Python). Jakarta : Penerbit Mitra Wacana Media.
